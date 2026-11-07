@@ -1,13 +1,24 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 700px;
-    margin: 50px auto;
-    padding: 20px;
+    margin: 0;
+    padding: 40px 20px;
     line-height: 1.6;
+}
+
+.carte {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
 }
 
 h1 {
     font-size: 36px;
+}
+
+.intro {
+    font-size: 18px;
 }
 
 h2 {
@@ -16,4 +27,12 @@ h2 {
 
 li {
     margin-bottom: 10px;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
 }
